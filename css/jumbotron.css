@@ -3,3 +3,9 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+/* Homepage Headline */
+.shattered-pattern {
+	background-image: url(../img/shattered-pattern.png);
+	background-repeat: repeat;
+}
