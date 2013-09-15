@@ -4,6 +4,12 @@ body {
   padding-bottom: 20px;
 }
 
+
+/* Navbar */
+.brand-name {
+	font-family: 'Lobster', cursive;
+}
+
 /* Homepage Headline */
 .shattered-pattern {
 	background-image: url(../img/shattered-pattern.png);
