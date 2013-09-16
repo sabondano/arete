@@ -7,11 +7,29 @@ body {
 
 /* Navbar */
 .brand-name {
-	font-family: 'Lobster', cursive;
+	font-family: 'Francois One', sans-serif;
 }
 
 /* Homepage Headline */
+.main-headline {
+	font-family: 'Lobster', cursive;
+}
+
 .shattered-pattern {
 	background-image: url(../img/shattered-pattern.png);
 	background-repeat: repeat;
+}
+
+/* What We Do */
+.section-title {
+	padding-bottom: 10px;
+}
+
+.services h3 {
+	font-weight: 400;
+	color: #4cae4c;
+}
+
+.services p {
+	color: #808080;
 }
