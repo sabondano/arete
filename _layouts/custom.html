@@ -3,12 +3,13 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body class="text-center">
+
   	{{ content }}
 
   	<div class="container">
-	  	<footer>
-	    	<p>© Arete 2013</p>
+	  	<footer class="text-muted">
+	    	<p>© 2013 Arete, LLC. All rights reserved.</p>
 	    </footer>
     </div> <!-- /container -->
 
@@ -17,6 +18,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <!-- Trigger tooltip -->
+    <script>
+      $('#arete-definition').tooltip()
+    </script>
   
   </body>
  </html>

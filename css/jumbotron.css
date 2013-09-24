@@ -1,49 +1,100 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Crimson Text', serif;
+	color: #000000;
+}
 
-/* Navbar */
+h1 {
+	font-size: 3.25em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+
+footer {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+
+/* General */
 .brand-name {
-	font-family: 'Francois One', sans-serif;
-}
-
-/* Homepage Headline */
-.main-headline {
-	font-family: 'Lobster', cursive;
-}
-
-.shattered-pattern {
-	background-image: url(../img/shattered-pattern.png);
-	background-repeat: repeat;
-}
-
-/* What We Do */
-.section-title {
-	padding-bottom: 10px;
-}
-
-.services h3 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 2.25em;
 	font-weight: 400;
-	color: #428bca;
+	color: #000000;
 }
 
-.services p {
-	color: #808080;
+.top-margin-xs {
+	margin-top: 10px;
+}
+.top-margin-md {
+	margin-top: 80px;
 }
 
-/* Get In Touch & Service/Product Promotion */
-.contact-us {
+/* Nav */
+.nav {
+	margin-right: 40px;
+}
+
+/* Home Page */
+.brand-details {
+	margin-top: 20px;
+	margin-left: 40px;
+	color: #C8C8C8;
+	cursor: default;
+}
+
+.glyphicon-info-sign {
+	cursor: help;
+}
+
+.thumbnail {
+	padding-top: 24px;
+}
+
+.services {
 	margin-top: 40px;
-	margin-bottom: 50px;
 }
 
-p {
-	color: #808080;
+.service-title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+	color: #3a87ad;
 }
 
-address {
-	color: #808080;
+.service-subtitle {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D00000;
+	margin-top: 16px;
+	font-weight: 700;
+	font-size:1.1em
 }
+
+.service-cta {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 1.1em;
+}
+
+
