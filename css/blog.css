@@ -1,0 +1,74 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Crimson Text', serif;
+	color: #000000;
+}
+
+h1 {
+	font-size: 3.25em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+
+footer {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+
+/* General */
+.mast-head {
+
+}
+
+.brand-name {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	color: #000000;
+	position: absolute;
+	right: 1em;
+	top: 0.5em;
+}
+
+.brand-name a, .brand-name a:visited {
+	color: #888888;
+	text-decoration: none;
+}
+
+.brand-name a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.brand-details {
+	cursor: default;
+	color: #999999;
+	position: absolute;
+	top: -0.2em;
+	left: 1em;
+}
+
+
+
+

@@ -3,44 +3,74 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>{{site.name}} | {{page.title}}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
+        <link rel="shortcut icon" href="img/favicon.ico">
+
+        <!-- Bootstrap core CSS -->
+        <link href="/css/bootstrap.css" rel="stylesheet">
+
+        <!-- Blog Custom CSS -->
+        <link href="/css/blog.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Crimson+Text:600' rel='stylesheet' type='text/css'>
+
+        <!-- syntax highlighting CSS (came with Jekyll by default) -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
+        <!-- Custom CSS (came with Jekyll by default)-->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
 
+      <div class="mast-head">
+        <div class="brand-details pull-left">
+          <p>Arete (/ˈ<abbr title="/ær/ 'arr' in 'marry'">ær</abbr><abbr title="/ə/ 'a' in 'about'">ə</abbr><abbr title="'t' in 'tie'">t</abbr><abbr title="/iː/ long 'e' in 'bead'">iː</abbr>/; Greek: ἀρετή) <span id="arete-definition" class="glyphicon glyphicon-info-sign" data-placement="bottom" data-toggle="tooltip" type="button" data-original-title="Arete (/ˈærətiː/; Greek: ἀρετή), in its basic sense, means excellence of any kind. In its earliest appearance in Greek, this notion of excellence was ultimately bound up with the notion of the fulfillment of purpose or function: the act of living up to one's full potential."></span></p>
+        </div>
+
+        <p class="text-muted text-center">You're reading Notion of Excellence, a blog about digital marketing by Arete.</p>
+
+        <div class="brand-name pull-right">
+          <a href="/index.html">arete <img src="/img/arete-logo-sm.png" alt="Arete Symbol"></a>
+        </div>
+      </div>
+
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
+            {{ content }}
 
             <div class="footer">
               <div class="contact">
                 <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
+                  Arete<br />
+                  Social & Digital Marketing Agency<br />
+                  info@marketingarete.com
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                  <a href="#">facebook.com/arete</a><br />
+                  <a href="#">twitter.com/arete</a><br />
                 </p>
               </div>
             </div>
           </div>
         </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/bootstrap.js"></script>
+
+    <!-- Trigger tooltip -->
+    <script>
+      $('#arete-definition').tooltip()
+    </script>
 
     </body>
 </html>
