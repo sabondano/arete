@@ -69,6 +69,19 @@ footer {
 	left: 1em;
 }
 
+.tooltip {
+	position: relative;
+}
+
+.text-link, .text-link:visited {
+	color: #428bca;
+	text-decoration: underline;
+}
+
+.text-link:hover {
+	color: #428bca;
+	text-decoration: none;
+}
 
 
 
